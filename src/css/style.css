@@ -15,7 +15,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.btn-pedido:hover {
+.btn-pedido a:hover {
     background-color: #ffe100;
 }
 
