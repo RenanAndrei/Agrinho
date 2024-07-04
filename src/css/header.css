@@ -62,7 +62,7 @@ header {
 
 @media (max-width: 768px) {
     .navlista, .navbar .btn-pedido {
-        display: flex;
+        display: none;
     }
 
     .btn-celular {
