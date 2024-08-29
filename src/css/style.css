@@ -36,5 +36,5 @@ section {
 }
 
 .btn-pedido:hover {
-    background-color: #ffe100;
+    background-color: var(--cor-neutra-1);
 }
