@@ -12,7 +12,7 @@
 
 
 body {
-    background-color: #fff9ea;
+    background-color: var(--cor-neutra-1);
 }
 
 section {
