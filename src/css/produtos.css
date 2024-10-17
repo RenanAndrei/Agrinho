@@ -31,3 +31,41 @@
     height: 300px;
     border-radius: 10px;
 }
+
+.estrela {
+    color: yellow;
+}
+
+.produto_preco {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.btn_pedido_whatsapp {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #054e11;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_pedido_whatsapp:hover {
+    background-color: #09801b;
+}
+
+.btn_pedido_whatsapp a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
