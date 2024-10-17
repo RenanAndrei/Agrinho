@@ -69,3 +69,7 @@
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .navlista, .navbar .btn-pedido {
+        display: none;
+    }
