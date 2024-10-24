@@ -1,3 +1,9 @@
+@import url(header.css);
+@import url(home.css);
+@import url(produtos.css);
+@import url(sobre.css);
+@import url(footer.css);
+
 :root{
     --cor-primaria-1: #001B2E;
     --cor-primaria-2: #294C60;
@@ -48,9 +54,5 @@ section {
     font-size: 2.2rem;
 }
 
-@import url(header.css);
-@import url(home.css);
-@import url(produtos.css);
-@import url(sobre.css);
-@import url(footer.css);
+
 
