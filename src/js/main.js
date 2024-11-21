@@ -25,3 +25,20 @@ $(window).on('scroll', function(){
 
     }
 });
+
+sections.each(function (i) {
+    const section = $(this);
+    const sectionTop = section.offset().top - 96;
+    const sectionBottom = sectionTop + section.
+    outerHeight();
+
+    if (scrollPosition >= sectionTop &&
+        scrollPosition < sectionBottom) {
+            activeSectionIndex = i;
+            return false;
+        }
+})
+
+navItens.removeClass('ativo');
+$(navItens[activeSectionIndex]).addClass('ativo')
+});
