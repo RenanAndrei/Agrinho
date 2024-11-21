@@ -6,3 +6,16 @@ $(document).ready(function () {
     });
     
 });
+
+
+const sections = $('section');
+const navItens = $('.nav_item');
+
+$(window).on('scroll', function(){
+    const header = $('header');
+    const scrollPosition = $(window).scrollTop() - 
+    header.outerHeight();
+
+    let activeSectionIndex = 0;
+        
+})
